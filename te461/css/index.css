@@ -1,0 +1,139 @@
+.rotMe{
+  border-left-color: transparent;
+  -webkit-animation: spin 1s linear infinite;
+  -moz-animation: spin 1s linear infinite;
+  -ms-animation: spin 1s linear infinite;
+  -o-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+@-webkit-keyframes spin
+{
+  from { -webkit-transform: rotate(0deg); opacity: 0.4; }
+  50%  { -webkit-transform: rotate(180deg); opacity: 1; }
+  to   { -webkit-transform: rotate(360deg); opacity: 0.4; }
+}
+
+@-moz-keyframes spin
+{
+  from { -moz-transform: rotate(0deg); opacity: 0.4; }
+  50%  { -moz-transform: rotate(180deg); opacity: 1; }
+  to   { -moz-transform: rotate(360deg); opacity: 0.4; }
+}
+
+@-ms-keyframes spin
+{
+  from { -ms-transform: rotate(0deg); opacity: 0.4; }
+  50%  { -ms-transform: rotate(180deg); opacity: 1; }
+  to   { -ms-transform: rotate(360deg); opacity: 0.4; }
+}
+
+@-o-keyframes spin
+{
+  from { -o-transform: rotate(0deg); opacity: 0.4; }
+  50%  { -o-transform: rotate(180deg); opacity: 1; }
+  to   { -o-transform: rotate(360deg); opacity: 0.4; }
+}
+
+@keyframes spin
+{
+  from { transform: rotate(0deg); opacity: 0.2; }
+  50%  { transform: rotate(180deg); opacity: 1; }
+  to   { transform: rotate(360deg); opacity: 0.2; }
+}
+
+.trans > td{
+  text-align: center;
+}
+th{
+  text-align: center;
+}
+body{
+    background-color: #C0C0C0;
+}
+a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+.header {
+    background-color: #333333;
+    color: #fff;
+}
+.noTd,.noTd:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.headerImg{
+    width: 25px;
+    height: 25px;
+}
+.header2{
+    background-color: #7a1e21;
+    color: #fff;
+      margin: 0px 0px 0px 0px;
+    padding: 0px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#7a1e21), to(#7a1e21));
+  background-image: -webkit-linear-gradient(top, #7a1e21 0%, #7a1e21 100%);
+  background-image:      -o-linear-gradient(top, #7a1e21 0%, #7a1e21 100%);
+  background-image:         linear-gradient(to bottom, #7a1e21 0%,#7a1e21 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a1e21', endColorstr='#7a1e21',GradientType=0 ); /* IE6-9 */
+  background-repeat: repeat-x; /* Repeat the gradient */
+  border-bottom: 1px solid #7a1e21;
+}
+.searchForm{
+    padding: 20px;
+}
+.nav-justified {
+  padding: 0px;
+  margin: 0px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+            box-shadow: inset 0 3px 7px rgba(0,0,15);
+}
+.nav-justified > li:first-child > a {
+  border-radius: 5px 5px 0 0;
+}
+.nav-justified > li:last-child > a {
+  border-bottom: 0;
+  border-radius: 0 0 5px 5px;
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 400px;
+  margin-bottom: 60px;
+}
+
+
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 400px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 400px;
+}
+.footer2{
+    color: #fff;
+    font-weight: bold;
+   background-color: #000; /* Old browsers */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#000));
+  background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #000 100%);
+  background-image:      -o-linear-gradient(top, #f5f5f5 0%, #000 100%);
+  background-image:         linear-gradient(to bottom, #f5f5f5 0%,#000 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#000',GradientType=0 ); /* IE6-9 */
+  background-repeat: repeat-x; /* Repeat the gradient */
+  border-bottom: 1px solid #000;
+}
